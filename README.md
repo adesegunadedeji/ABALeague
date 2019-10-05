@@ -9,4 +9,4 @@
  -> FAKER + TBD
 
 ## React Hierachy
- ![React Hierachy(https://github.com/adesegunadedeji/ABALeague/blob/master/React%20Hierachy.png?raw=true))
+ ![React Hierachy](https://github.com/adesegunadedeji/ABALeague/blob/master/React%20Hierachy.png?raw=true))
