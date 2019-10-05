@@ -10,3 +10,19 @@
 
 ## React Hierachy
  ![React Hierachy](https://github.com/adesegunadedeji/ABALeague/blob/master/React%20Hierachy.png?raw=true))
+
+ ## MVP
+ A Responsive CRUD web application built with a Rails Backend Server + React Front End.
+ Incorporating Boostrap/ ReactStrap UI framework
+ Users can Register/Login 
+ Users can search for news using Player's First and Last Name
+
+  ## PostMVP
+  Adding Google Maps API to show Stadium Map View of different Teams.
+  Can pinpoint State User is Login in from
+
+  ## Code Snippet
+  TBD.
+
+## Issues and Resolutions
+    TBD.
