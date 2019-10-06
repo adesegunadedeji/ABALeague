@@ -554,3 +554,133 @@ Processing by LeaguesController#index as */*
 Completed 200 OK in 32ms (Views: 30.7ms | ActiveRecord: 0.7ms | Allocations: 15388)
 
 
+Started GET "/leagues" for ::1 at 2019-10-05 15:12:12 -0400
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LeaguesController#index as */*
+  [1m[36mLeague Load (5.5ms)[0m  [1m[34mSELECT "leagues".* FROM "leagues"[0m
+  ↳ app/controllers/leagues_controller.rb:8:in `index'
+Completed 200 OK in 283ms (Views: 256.7ms | ActiveRecord: 22.3ms | Allocations: 20482)
+
+
+Started GET "/leagues" for ::1 at 2019-10-05 15:12:13 -0400
+Processing by LeaguesController#index as */*
+  [1m[36mLeague Load (3.3ms)[0m  [1m[34mSELECT "leagues".* FROM "leagues"[0m
+  ↳ app/controllers/leagues_controller.rb:8:in `index'
+Completed 200 OK in 123ms (Views: 119.4ms | ActiveRecord: 3.3ms | Allocations: 15388)
+
+
+Started GET "/leagues" for ::1 at 2019-10-05 15:12:13 -0400
+Processing by LeaguesController#index as */*
+  [1m[36mLeague Load (0.5ms)[0m  [1m[34mSELECT "leagues".* FROM "leagues"[0m
+  ↳ app/controllers/leagues_controller.rb:8:in `index'
+Completed 200 OK in 84ms (Views: 83.1ms | ActiveRecord: 0.5ms | Allocations: 15388)
+
+
+Started GET "/leagues" for ::1 at 2019-10-06 07:06:30 -0400
+Processing by LeaguesController#index as HTML
+  [1m[36mLeague Load (4.5ms)[0m  [1m[34mSELECT "leagues".* FROM "leagues"[0m
+  ↳ app/controllers/leagues_controller.rb:8:in `index'
+Completed 200 OK in 42ms (Views: 34.8ms | ActiveRecord: 4.5ms | Allocations: 15462)
+
+
+Started GET "/leagues" for ::1 at 2019-10-06 07:06:32 -0400
+Processing by LeaguesController#index as HTML
+  [1m[36mLeague Load (0.5ms)[0m  [1m[34mSELECT "leagues".* FROM "leagues"[0m
+  ↳ app/controllers/leagues_controller.rb:8:in `index'
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.5ms | Allocations: 15403)
+
+
+Started GET "/leagues" for ::1 at 2019-10-06 07:06:33 -0400
+Processing by LeaguesController#index as HTML
+  [1m[36mLeague Load (0.5ms)[0m  [1m[34mSELECT "leagues".* FROM "leagues"[0m
+  ↳ app/controllers/leagues_controller.rb:8:in `index'
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.5ms | Allocations: 15389)
+
+
+Started GET "/leagues" for ::1 at 2019-10-06 07:06:34 -0400
+Processing by LeaguesController#index as HTML
+  [1m[36mLeague Load (0.5ms)[0m  [1m[34mSELECT "leagues".* FROM "leagues"[0m
+  ↳ app/controllers/leagues_controller.rb:8:in `index'
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.5ms | Allocations: 15403)
+
+
+Started GET "/leagues" for ::1 at 2019-10-06 07:36:33 -0400
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LeaguesController#index as */*
+  [1m[36mLeague Load (3.3ms)[0m  [1m[34mSELECT "leagues".* FROM "leagues"[0m
+  ↳ app/controllers/leagues_controller.rb:8:in `index'
+Completed 200 OK in 131ms (Views: 106.8ms | ActiveRecord: 17.1ms | Allocations: 20488)
+
+
+Started GET "/leagues" for ::1 at 2019-10-06 07:36:56 -0400
+Processing by LeaguesController#index as */*
+  [1m[36mLeague Load (0.4ms)[0m  [1m[34mSELECT "leagues".* FROM "leagues"[0m
+  ↳ app/controllers/leagues_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.4ms | Allocations: 15404)
+
+
+Started GET "/leagues" for ::1 at 2019-10-06 07:37:32 -0400
+Processing by LeaguesController#index as */*
+  [1m[36mLeague Load (0.5ms)[0m  [1m[34mSELECT "leagues".* FROM "leagues"[0m
+  ↳ app/controllers/leagues_controller.rb:8:in `index'
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.5ms | Allocations: 15404)
+
+
+Started GET "/leagues" for ::1 at 2019-10-06 16:41:02 -0400
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LeaguesController#index as */*
+  [1m[36mLeague Load (6.9ms)[0m  [1m[34mSELECT "leagues".* FROM "leagues"[0m
+  ↳ app/controllers/leagues_controller.rb:8:in `index'
+Completed 200 OK in 55ms (Views: 33.9ms | ActiveRecord: 19.3ms | Allocations: 20477)
+
+
+Started GET "/leagues" for ::1 at 2019-10-06 17:12:11 -0400
+Processing by LeaguesController#index as */*
+  [1m[36mLeague Load (2.1ms)[0m  [1m[34mSELECT "leagues".* FROM "leagues"[0m
+  ↳ app/controllers/leagues_controller.rb:8:in `index'
+Completed 200 OK in 222ms (Views: 213.4ms | ActiveRecord: 2.1ms | Allocations: 15461)
+
+
+Started GET "/leagues" for ::1 at 2019-10-06 17:22:00 -0400
+Processing by LeaguesController#index as */*
+  [1m[36mLeague Load (1.6ms)[0m  [1m[34mSELECT "leagues".* FROM "leagues"[0m
+  ↳ app/controllers/leagues_controller.rb:8:in `index'
+Completed 200 OK in 106ms (Views: 103.6ms | ActiveRecord: 1.6ms | Allocations: 15461)
+
+
+Started GET "/leagues" for ::1 at 2019-10-06 17:22:25 -0400
+Processing by LeaguesController#index as */*
+  [1m[36mLeague Load (32.6ms)[0m  [1m[34mSELECT "leagues".* FROM "leagues"[0m
+  ↳ app/controllers/leagues_controller.rb:8:in `index'
+Completed 200 OK in 125ms (Views: 86.3ms | ActiveRecord: 32.6ms | Allocations: 15417)
+
+
+Started GET "/leagues" for ::1 at 2019-10-06 17:22:53 -0400
+Processing by LeaguesController#index as */*
+  [1m[36mLeague Load (5.0ms)[0m  [1m[34mSELECT "leagues".* FROM "leagues"[0m
+  ↳ app/controllers/leagues_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 16.5ms | ActiveRecord: 5.0ms | Allocations: 15388)
+
+
+Started GET "/leagues" for ::1 at 2019-10-06 17:34:06 -0400
+  [1m[35m (7.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LeaguesController#index as */*
+  [1m[36mLeague Load (13.9ms)[0m  [1m[34mSELECT "leagues".* FROM "leagues"[0m
+  ↳ app/controllers/leagues_controller.rb:8:in `index'
+Completed 200 OK in 94ms (Views: 63.4ms | ActiveRecord: 28.1ms | Allocations: 20477)
+
+
+Started GET "/leagues" for ::1 at 2019-10-06 17:35:35 -0400
+Processing by LeaguesController#index as */*
+  [1m[36mLeague Load (7.6ms)[0m  [1m[34mSELECT "leagues".* FROM "leagues"[0m
+  ↳ app/controllers/leagues_controller.rb:8:in `index'
+Completed 200 OK in 31ms (Views: 22.4ms | ActiveRecord: 7.6ms | Allocations: 15404)
+
+
+Started GET "/leagues" for ::1 at 2019-10-06 17:44:30 -0400
+Processing by LeaguesController#index as */*
+  [1m[36mLeague Load (14.0ms)[0m  [1m[34mSELECT "leagues".* FROM "leagues"[0m
+  ↳ app/controllers/leagues_controller.rb:8:in `index'
+Completed 200 OK in 77ms (Views: 62.4ms | ActiveRecord: 14.0ms | Allocations: 15461)
+
+
