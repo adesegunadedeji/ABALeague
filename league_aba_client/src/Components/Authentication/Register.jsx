@@ -15,6 +15,11 @@ class Register extends Component{
         console.log(this.state)
     }
    
+    // handleRegister=(e)=>{
+    //     this.setState({
+    //         [e.target.name]: e.target.value
+    //     })
+    // }
     handleSubmit=(e)=>{
         e.preventDefault();
         console.log("Submitted Form")
@@ -26,8 +31,10 @@ class Register extends Component{
             <div>
                 <h1> New User</h1>
                 <form onSubmit ={this.handleSubmit}>
+                    <label htmlFor="email">email</label>
                 <input type ="text" name = "email"  onChange={this.handleChange}/>
                 <input type ="password" name = "password" onChange={this.handleChange}/>
+                <input type ="submit"></input>
                 </form>
             </div>
         )
