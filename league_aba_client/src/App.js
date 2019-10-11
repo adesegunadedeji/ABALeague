@@ -12,7 +12,7 @@ class App extends Component{
           email: null
       }
   } 
- 
+
   componentDidMount(){
     console.log("Component did Mount");
     this.getUser();
@@ -27,9 +27,10 @@ class App extends Component{
       console.log(err)
   }
   }
-
+  
   handleRegister = async(formData)=>{
       console.log(formData)
+      
       const registerResponse = await fetch(`http://localhost:3001/users`,{
           method: "POST",
           body: JSON.stringify(formData),
@@ -38,11 +39,11 @@ class App extends Component{
           }
       })
       const parsedResponse = await registerResponse.json();
-      if(parsedResponse.status){
+      if(parsedResponse.status === 200){
           console.log("Succesfull Registration")
           this.setState({
-              loggedIn: true,
-              email: parsedResponse.data.email
+            loggedIn: true,
+            email: user
           })
       }
   }

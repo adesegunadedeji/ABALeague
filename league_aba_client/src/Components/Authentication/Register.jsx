@@ -5,7 +5,8 @@ class Register extends Component{
         super();
         this.state = {
             email: null,
-            password: null
+            password: null,
+    
         }
     }
     handleChange=(e)=>{
@@ -33,6 +34,7 @@ class Register extends Component{
                 <form onSubmit ={this.handleSubmit}>
                     <label htmlFor="email">email</label>
                 <input type ="text" name = "email"  onChange={this.handleChange}/>
+                <label htmlFor="password">Password</label>
                 <input type ="password" name = "password" onChange={this.handleChange}/>
                 <input type ="submit"></input>
                 </form>
